@@ -22,3 +22,7 @@ useEffect(
   [/* 0 or more entried */]
 )
 ```
+
+## Summary
+
+The main use for `useEffect` is to be able to sync React components with external systems like _serves, APIs, or browser DOMs_. Meaning you want to make sure you really need it before using it. You don't want to use them willy nilly as having unnecessary `useEffect` hooks are prone to more errors and unnecessary performance issues.
